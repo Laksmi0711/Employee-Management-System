@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "employee" class = "employeemanagementsystem.spring.Employee_Show"></bean>
+   <bean id = "menu" class = "employeemanagementsystem.spring.MainMenu"></bean>
+   <bean id = "ep" class = "employeemanagementsystem.spring.Employee_Add"></bean>
+   <bean id = "epr" class = "employeemanagementsystem.spring.Employee_Remove"></bean>
+   <bean id = "epu" class = "employeemanagementsystem.spring.Employee_Update"></bean>
+   <bean id = "emp" class = "employeemanagementsystem.spring.EmployDetail"></bean>
+   <bean id = "obj" class = "employeemanagementsystem.spring.CodeExit"></bean>
+   <bean id = "rate" class = "employeemanagementsystem.spring.Employee_Rate"></bean>
+   <bean id = "view" class = "employeemanagementsystem.spring.Employee_View"></bean>
+   <bean id = "ea" class = "employeemanagementsystem.spring.Employee_Attendance"></bean>
+   <bean id = "ela" class = "employeemanagementsystem.spring.Employee_LeaveApplication"></bean>
+   <bean id = "ems" class = "employeemanagementsystem.spring.EmployeeManagementSystemSpringClient"></bean>
+
+</beans>
